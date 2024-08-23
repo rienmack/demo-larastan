@@ -1,6 +1,7 @@
 name: Coding Standard & Static Analysis
 
-on:
+on: [pull_request]
+
 permissions:
   contents: read # to fetch code (actions/checkout)
 
