@@ -9,9 +9,7 @@ class PostController extends Controller
     public function index($id, $foo)
     {
         Post::class;
-        dd(foo)
-        break;
-        return;
+        dd(foo);
         if ($id == 1) {
             return 'Post 1';
         } else {
